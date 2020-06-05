@@ -1,5 +1,5 @@
 
-d3.json('data/samples.json').then(function(samplesData) {
+d3.json('../data/samples.json').then(function(samplesData) {
   function init(){
     //grabs data from samples.json and adds options to dropdown menu on page
     var samplesArray = samplesData.samples.map(rows => rows.id);
